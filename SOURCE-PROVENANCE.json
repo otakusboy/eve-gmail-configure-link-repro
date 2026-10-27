@@ -1,0 +1,32 @@
+{
+  "repository": "https://github.com/vercel/eve",
+  "commit": "a5328b4482812da9cf97e7ad90df363950627032",
+  "snapshots": [
+    {
+      "localPath": "src/markdown.tsx",
+      "upstreamPath": "apps/docs/app/[lang]/integrations/components/markdown.tsx",
+      "sha256": "3aa04a692be0b7e31c83e4c75bb362f972609a037812906939a7f41871c1924b"
+    },
+    {
+      "localPath": "src/lib/analytics/events.ts",
+      "upstreamPath": "apps/docs/lib/analytics/events.ts",
+      "sha256": "cc764cc54b878a3ca59b98fa3c12a06b8e5f98c43903635da64cf8415c106e8f"
+    },
+    {
+      "localPath": "LICENSE",
+      "upstreamPath": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "localPath": "NOTICE",
+      "upstreamPath": "NOTICE",
+      "sha256": "5343ca0a51bedd4cef8b082ec26f0c22237de1ba527e3594252a718fd1bb2056"
+    }
+  ],
+  "markdownFixture": {
+    "localPath": "src/gmail-paragraph.md",
+    "upstreamPath": "apps/docs/lib/integrations/data.ts",
+    "line": 1287,
+    "description": "Exact source paragraph containing the Configure link, extracted without changes."
+  }
+}

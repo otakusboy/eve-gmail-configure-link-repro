@@ -1,0 +1,1 @@
+**Installing or deploying this channel does not start Gmail listening.** After configuring credentials and Pub/Sub, run the maintenance job once as described under [Configure](#configure). Otherwise, registration waits until the first successful daily job.

@@ -1,0 +1,58 @@
+
+added 888 packages in 7s
+
+> eve-gmail-configure-link-repro@0.0.0 reproduce
+> npm run render && node scripts/check-browser.mjs
+
+
+> eve-gmail-configure-link-repro@0.0.0 render
+> node --import tsx scripts/render.mjs
+
+Unchanged upstream component output:
+<a href="#configure" rel="noopener noreferrer" target="_blank" node="[object Object]">Configure</a>
+{
+  "node": "v24.22.1",
+  "platform": "darwin arm64",
+  "browser": "153.0.8010.12",
+  "sourceCommit": "a5328b4482812da9cf97e7ad90df363950627032",
+  "method": "Unchanged upstream Markdown component and exact Gmail paragraph, server-rendered in an isolated local HTML harness. No hydration or full Next.js site verification.",
+  "results": [
+    {
+      "viewport": 320,
+      "actual": {
+        "tabs": 2,
+        "originalHash": "",
+        "newTabHash": "#configure"
+      },
+      "control": {
+        "tabs": 1,
+        "originalHash": "#configure"
+      }
+    },
+    {
+      "viewport": 390,
+      "actual": {
+        "tabs": 2,
+        "originalHash": "",
+        "newTabHash": "#configure"
+      },
+      "control": {
+        "tabs": 1,
+        "originalHash": "#configure"
+      }
+    },
+    {
+      "viewport": 1280,
+      "actual": {
+        "tabs": 2,
+        "originalHash": "",
+        "newTabHash": "#configure"
+      },
+      "control": {
+        "tabs": 1,
+        "originalHash": "#configure"
+      }
+    }
+  ]
+}
+Reproduction confirmed. Exit 0 means the bug and native-link control matched expectations.

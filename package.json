@@ -1,0 +1,28 @@
+{
+  "name": "eve-gmail-configure-link-repro",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "render": "node --import tsx scripts/render.mjs",
+    "reproduce": "npm run render && node scripts/check-browser.mjs",
+    "preview": "npm run render && node scripts/server.mjs"
+  },
+  "dependencies": {
+    "@streamdown/code": "1.1.1",
+    "@vercel/analytics": "2.0.1",
+    "@vercel/geistdocs": "2.13.1-canary.87d00b3",
+    "next": "16.3.8",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "streamdown": "2.5.0",
+    "tailwindcss": "4.3.0"
+  },
+  "devDependencies": {
+    "playwright-core": "1.63.0",
+    "tsx": "4.23.13"
+  }
+}
